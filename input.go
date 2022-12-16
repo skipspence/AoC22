@@ -15,12 +15,5 @@ func check(e error) {
 func ReadInput(fileLocation string) string {
 	dat, err := os.ReadFile(fileLocation)
 	check(err)
-	fmt.Println(string(dat))
-
 	return string(dat)
-}
-
-func Hello(name string) string {
-	message := fmt.Sprintf("Hi, %v. Welcome!", name)
-	return message
 }
