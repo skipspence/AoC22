@@ -1,7 +1,6 @@
 package AoC22
 
 import (
-	"fmt"
 	"os"
 )
 
